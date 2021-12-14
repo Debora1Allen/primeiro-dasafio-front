@@ -1,0 +1,93 @@
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1110px;
+    max-height: 365px;
+    margin: 140px 165px;
+    margin-left: 450px;
+    border-top: 1px solid rgb(199, 196, 196);
+}
+.form{
+    display: flex;
+    margin: 249px 165px;
+    max-width: 1110px;
+max-height: 426px;
+margin-left: 450px;
+border-top: 1px solid rgb(199, 196, 196);;
+}
+.linha{
+    min-width: 550px;
+    max-height: 365px; 
+    display: flex;
+  
+}
+.linha h1 {
+    margin-bottom: 180px;
+}
+
+.icons{
+    margin-top: 54px;
+} 
+.icons img{
+    margin-left: 20px;
+}  
+.formulario{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+h1,p, .formulario{
+    margin-top: 48px;
+}
+
+input{
+    all: unset;
+    box-sizing: border-box;   
+    min-width: 635px;
+    min-height: 48px; 
+    border: 1px solid gray;
+    background-color: grey;
+    opacity: 0.1;
+    margin-bottom:62px;
+    
+}
+.msg{
+    min-width: 635px;
+    min-height: 96px;
+}
+button{
+    all: unset;
+    box-sizing: border-box; 
+    max-width: 200px;
+    min-height: 48px;
+    text-align: center;
+    background: #203A4C;
+    color: #fff;
+    margin-bottom:62px;
+    font-family: 'Public Sans'sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+      
+}
+p{
+    text-align: justify;
+}
+
+label{
+    font-family: 'Public Sans' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}

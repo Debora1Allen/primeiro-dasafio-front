@@ -1,0 +1,45 @@
+.container1{
+    display: flex;
+    margin-left: 450px;
+    width: 1015px;
+height: 500px;
+
+
+}
+
+
+.container1 img{
+min-width: 540px;
+min-height: 400px;
+margin-bottom: 54px;
+
+}
+
+p{
+ max-width: 350px;
+ min-height: 120px;
+ margin: 30px 0;
+}
+
+.conteudo{
+    margin: 60px 100px ;
+    text-align: justify;
+}
+.conteudo a{
+    color: black;
+background-color: #fff;
+border: 1px solid #000;
+text-align: center;
+text-decoration: none;
+text-align: center;
+padding: 20px 48px;
+font-family: 'Public Sans' sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #33323D;
+}
