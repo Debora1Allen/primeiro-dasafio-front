@@ -1,18 +1,5 @@
-import { Link } from 'react-router-dom';
-
 const Contato = () => (
   <div className="container">
-    <header>
-      <img src="/assets/icons/logo-dark.svg" alt="" />
-      <nav>
-        <ul>
-          <li><Link to="/">HOME</Link></li>
-          <li><Link to="/portfolio">PORTFOLIO</Link></li>
-          <li><Link to="/contato">CONTATO</Link></li>
-        </ul>
-      </nav>
-    </header>
-
     <div className="contato">
       <div className="linha">
         <h1>Entre em Contato</h1>
@@ -25,11 +12,6 @@ const Contato = () => (
           que sempre fará as tasks com um senso de propósito e atenção aos detalhes. Fique livre para checar meu
           perfis abaixo e entrar em contato utilizando o formulário.
         </p>
-        <div className="icons">
-          <img src="/assets/icons/github-dark.svg" alt="GitHub" />
-          <img src="/assets/icons/twitter-dark.svg" alt="Twitter" />
-          <img src="/assets/icons/linkedin-dark.svg" alt="LinkedIn" />
-        </div>
       </div>
     </div>
 

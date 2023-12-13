@@ -1,5 +1,6 @@
 import DownArrow from '../assets/icons/down-arrows.svg';
 import AboutMe from './AboutMe';
+import Contact from './Contact';
 const Home = () => (
     <>
     <div className="container2">
@@ -7,6 +8,7 @@ const Home = () => (
     <a href="#sobremim"><img src={DownArrow} alt="" /> SOBRE MIM</a></div>
   </div>
   <AboutMe></AboutMe>
+  <Contact></Contact>
     </>
   
 );
