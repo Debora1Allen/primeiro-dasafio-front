@@ -1,20 +1,31 @@
 import Contact from "../Contact";
-import manageHero from '../../assets/portfolio/manage/image-manage-hero.jpg';
-import managePreview1 from '../../assets/portfolio/manage/image-manage-preview-1.jpg';
-import managePreview2 from '../../assets/portfolio/manage/image-manage-preview-2.jpg';
 import './stylePortifolio.css';
 
-const PortfolioPage = () => {
+import { Link } from "react-router-dom";
+
+const PortfolioPage = (
+  { 
+  title, 
+   heroImage, 
+   previewImage1,
+   previewImage2,
+   prevProjectLink, 
+   nextProjectLink,
+   titlePrevProject,
+   titleNextProject,
+   
+  }
+   ) => {
   return (
     <div className="container">
       <div className="img">
-        <img src={manageHero} alt="" />
+        <img src={heroImage} alt="" />
       </div>
 
       <div className="conteudos">
         <div className="content-box">
         <div className="conteudo1">
-          <h1>Manage</h1>
+          <h1>{title}</h1>
           <p>Esse projeto me fez criar uma landing page responsiva de acordo com o design que recebi. Usei HTML5, CSS
             Grid e JavaScript para as áreas interativas, como o slider de testimoniais.</p>
           <h5>Interaction Design / Front End Development</h5>
@@ -36,24 +47,26 @@ const PortfolioPage = () => {
 
       <div className="conteudo3">
         <h2>Previews Estáticos</h2>
-        <img src={managePreview1} alt="" />
-        <img src={managePreview2} alt="" />
+        <img src={previewImage1} alt="" />
+        <img src={previewImage2} ></img>
       </div>
 
       <div className="conteudo4">
         <div>
-          <button className="button" href="/pages/portfolio-04-fylo/index.html">
-            <img src="/assets/icons/arrow-left.svg" alt="" />
-            Fylo 
+        <Link to={prevProjectLink}>
+          <button className="button">   
+            {titlePrevProject}
           </button>
+          </Link>
           <h6>Projeto Anterior</h6>
         </div>
 
         <div>
-          <button className="button buton2" href="/pages/portfolio-02-bookmark/index.html">
-            Bookmark
-            <img src="/assets/icons/arrow-right.svg" alt="" />
+        <Link to={nextProjectLink}>
+          <button className="button buton2"> 
+            {titleNextProject}
           </button>
+          </Link>
           <h6>Próximo Projeto</h6>
         </div>
       </div>
