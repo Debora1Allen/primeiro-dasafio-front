@@ -42,18 +42,18 @@ const PortfolioPage = () => {
 
       <div className="conteudo4">
         <div>
-          <a className="button" href="/pages/portfolio-04-fylo/index.html">
+          <button className="button" href="/pages/portfolio-04-fylo/index.html">
             <img src="/assets/icons/arrow-left.svg" alt="" />
-            <h2>Fylo </h2>
-          </a>
+            Fylo 
+          </button>
           <h6>Projeto Anterior</h6>
         </div>
 
         <div>
-          <a className="button buton2" href="/pages/portfolio-02-bookmark/index.html">
-            <h2>Bookmark</h2>
+          <button className="button buton2" href="/pages/portfolio-02-bookmark/index.html">
+            Bookmark
             <img src="/assets/icons/arrow-right.svg" alt="" />
-          </a>
+          </button>
           <h6>Próximo Projeto</h6>
         </div>
       </div>
