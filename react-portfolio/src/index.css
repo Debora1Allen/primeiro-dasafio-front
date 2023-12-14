@@ -10,8 +10,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(235, 225, 213);
 }
 
 .container {
-  width: 80%; /* Adjust the width of your container */
+  width: 90%; 
 }

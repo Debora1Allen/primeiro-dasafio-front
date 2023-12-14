@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import logoDark from '../../assets/icons/logo-dark.svg';
-import './style.css';
+import './styleHeader.css';
 
 const Header = () => (
   <header>

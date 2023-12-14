@@ -4,6 +4,7 @@ import insure from '../../assets/portfolio/insure/image-portfolio-insure.jpg';
 import fylo from '../../assets/portfolio/fylo/image-portfolio-fylo.jpg';
 import './stylePortifolio.css';
 import Contact from '../Contact';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
   return (
@@ -14,7 +15,7 @@ const Portfolio = () => {
           <h1>Manage</h1>
           <p>Esse projeto me fez criar uma landing page responsiva de acordo com o design que recebi. Usei HTML5, CSS
             Grid e JavaScript para as áreas interativas, como o slider de testimoniais.</p>
-          <a href="/pages/portfolio-01-manage/index.html">VER PROJETO</a>
+          <Link to='/page-portifolio'>VER PROJETO</Link>
         </div>
       </div>
 
