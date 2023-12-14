@@ -1,11 +1,13 @@
-import manage from '../assets/portfolio/manage/image-portfolio-manage.jpg';
-import bookmark from '../assets/portfolio/bookmark/image-portfolio-bookmark.jpg';
-import insure from '../assets/portfolio/insure/image-portfolio-insure.jpg';
-import fylo from '../assets/portfolio/fylo/image-portfolio-fylo.jpg';
+import manage from '../../assets/portfolio/manage/image-portfolio-manage.jpg';
+import bookmark from '../../assets/portfolio/bookmark/image-portfolio-bookmark.jpg';
+import insure from '../../assets/portfolio/insure/image-portfolio-insure.jpg';
+import fylo from '../../assets/portfolio/fylo/image-portfolio-fylo.jpg';
+import './stylePortifolio.css';
+import Contact from '../Contact';
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className='containerManage'>
       <div className="container1">
         <img src={manage} alt="" />
         <div className="conteudo">
@@ -46,11 +48,7 @@ const Portfolio = () => {
           <a href="/pages/portfolio-04-fylo/index.html">VER PROJETO</a>
         </div>
       </div>
-
-      <div className="container4">
-        <h3>Interessado em fazer projetos comigo?</h3>
-        <a href="/pages/contato/index.html">CONTATO</a>
-      </div>
+      <Contact/>
     </div>
   );
 };

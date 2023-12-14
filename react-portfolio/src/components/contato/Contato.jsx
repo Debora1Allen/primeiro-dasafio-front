@@ -1,5 +1,6 @@
+import './styleContato.css';
 const Contato = () => (
-  <div className="container">
+  <div className="containerContato">
     <div className="contato">
       <div className="linha">
         <h1>Entre em Contato</h1>
@@ -14,7 +15,6 @@ const Contato = () => (
         </p>
       </div>
     </div>
-
     <div className="form">
       <div className="linha">
         <h1>Contato</h1>

@@ -1,11 +1,11 @@
 import {Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import Contato from './components/Contato';
+import Home from './components/home/Home';
+import Contato from './components/contato/Contato';
 import Layout from './components/Layout';
-import Portfolio from './components/Portifolio';
+import Portfolio from './components/portifolio/Portifolio';
 
 const App = () => (
-    <div className="container">
+    <div >
       <Routes>
       <Route path="/" element={<Layout/>}>
         <Route path="/" element={<Home />} />

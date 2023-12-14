@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import Profile from '../assets/home/image-homepage-profile.jpg';
+import Profile from '../../assets/home/image-homepage-profile.jpg';
+import './style.css';
 
 const AboutMe = () => (
   <div className="container3">
@@ -15,7 +16,8 @@ const AboutMe = () => (
                     em times remotos. Quando não estou codando, poderá me achar fora de casa. Eu adoro estar próximo a
                     natureza seja para uma caminhada, corrida ou ciclismo. Eu amaria se você desse uma olhada no meu
                     trabalho.</p>
-      <Link to="/portifolio">Ir para PORTFOLIO</Link>
+                    <Link to="/portifolio">Ir para PORTFOLIO</Link>
+      
     </div>
   </div>
 );

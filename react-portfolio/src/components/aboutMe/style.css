@@ -1,0 +1,39 @@
+.container3{
+    display: flex;
+    
+     max-width: 1110px;
+   height: 600px;
+   
+   
+   }
+   h2{
+    margin-bottom: 40px;
+    font-family: 'Ibarra Real Nova' sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 42px;
+   letter-spacing: -0.357143px;
+   color: #33323D;
+   
+   }
+   p{
+   margin: 0 10px 50px; 
+   text-align: justify;
+   font-family: 'Public Sans' sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 30px;
+   color: #33323D;
+   mix-blend-mode: normal;
+   opacity: 0.8; 
+   
+   }
+   .container3 a{
+     margin-left: 100px;
+     color: black;
+     background-color: #fff;
+     border: 1px solid #000;
+   }
+   
